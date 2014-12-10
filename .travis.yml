@@ -39,6 +39,6 @@ notifications:
     urls:
       - http://104.236.18.234/notifications/index.php
       - http://hooks.mydomain.com/events
-    on_success: always
+    on_success: change
     on_failure: never
     on_start: false

@@ -26,10 +26,6 @@ class ActivityTest < ActiveSupport::TestCase
     @project = Project.find(1)
   end
 
-  def test_fail
-    assert nil
-  end
-
   def test_activity_without_subprojects
     events = find_events(User.anonymous, :project => @project)
     assert_not_nil events
