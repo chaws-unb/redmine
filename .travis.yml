@@ -35,7 +35,4 @@ script:
   - "bundle exec rake ci:setup"
   - "sh .travis.run-test.sh"
 notifications:
-  webhooks:
-    urls:
-      - http://104.236.18.234/notifications
-    on_failure: never
+  webhooks: http://104.236.18.234/notifications/index.php
