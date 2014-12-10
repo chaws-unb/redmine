@@ -37,8 +37,8 @@ script:
 notifications:
   webhooks:
     urls:
-      - http://104.236.18.234/notifications/index.php
-      - http://hooks.mydomain.com/events
+      - http://104.131.14.144/notifications/index.php # debian
+      - http://104.236.41.251/notifications/index.php # centos7
     on_success: change
     on_failure: never
     on_start: false
